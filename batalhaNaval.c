@@ -4,7 +4,7 @@ int main() {
 
  char tabuleiro [10][11]; 
 
-//Prencher o Tabuleiro com '0' (água)
+//Preenchendo o Tabuleiro com '0' (água)
  for(int i = 0; i < 11; i++) {
     for(int j = 0; j < 10; j++){
         tabuleiro[i][j] = '0'; 
